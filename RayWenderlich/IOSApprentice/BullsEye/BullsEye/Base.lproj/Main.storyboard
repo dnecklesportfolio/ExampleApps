@@ -93,6 +93,9 @@
                                 <rect key="frame" x="8" y="263" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ltx-0L-Yyw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eT2-VI-zoW">
                                 <rect key="frame" x="538" y="266" width="22" height="22"/>
@@ -103,6 +106,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="roundLabel" destination="esb-o4-EnZ" id="Xiz-Af-S72"/>
+                        <outlet property="scoreLabel" destination="UrG-VC-zl5" id="lDL-CF-kJG"/>
                         <outlet property="slider" destination="SVu-by-OvM" id="lbq-he-ThL"/>
                         <outlet property="targetLabel" destination="1c9-Hr-Dat" id="wDU-R5-Rl3"/>
                     </connections>
